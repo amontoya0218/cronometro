@@ -1,0 +1,273 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background: url(/img/borondo350.jpg);
+    
+    background-attachment:fixed;
+}
+
+.contenedor{
+
+    position: relative;
+    width: 100%;
+    padding: 15px; 
+    right: 70px;
+
+
+}
+.formulario{
+
+    background-color:rgba(225,255,255, 0); 
+    /* background-color: white; */
+    margin-top: 150px;
+    
+    padding: 3px;
+    float: right; 
+}
+h1{
+
+    text-align:center;
+    font-size: 40px;
+    
+    }
+    
+    input[type="text"],
+    input[type="password"]{
+    
+        background-color:rgba(225,255,255, 0); 
+            font-size: 20px;
+            width: 85%;
+            padding: 10px;
+            border-radius: 20px;
+    
+    
+    
+    }
+    
+    .input-contenedor{
+    
+         margin-bottom: 15px; 
+        
+        border: none;
+    
+    }
+    
+    .icon{
+        min-width: 50px;
+        text-align: center;
+        color: #999;
+    
+    
+    }
+    
+    .button{
+    
+    border: none;
+    width: 100%;
+    /* margin-left: 20px;
+    margin-top: 20PX; */
+    
+    color:white;
+    font-size: 20px;
+    background: #D27E88;
+    padding: 15px 20px ;  
+    border-radius: 5px;
+    cursor:pointer;
+    }
+    
+    .button:hover{
+    
+        background-color: #40B7E4;
+    }
+    
+    p{
+    
+    text-align: center;
+    
+    }
+
+    @media(min-width:768px){
+
+        .formulario{
+            
+            margin: auto;
+            width: 500px;
+            margin-top: 150px;
+            margin-left: 80px;
+            border-radius:2%; 
+            }
+        
+    }
+
+    
+#semi-circulo{
+
+
+     position:absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left:0%; 
+    transform: rotate(270deg);
+    
+     width: 600px; 
+     height: 600px; 
+     
+     
+
+     background-image: radial-gradient(at right 0% top 0%,  white,#40B7E4);
+     
+     -moz-border-radius: 0 0 0 100%;
+     -webkit-border-radius: 0 0 0 100%;
+     border-radius: 0 0 0 100%;
+
+}
+
+
+ #circulo1{
+    
+    position:absolute;
+    top: 20%;
+    bottom: 0%;
+    right: 0%;
+    left:15%;    
+
+
+    background-color:rgba(48,180,200, 0.7); 
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+
+    
+}  
+
+ #circulo2{
+
+    position:absolute;
+    top: 50%;
+    bottom: 0%;
+    right: 0%;
+    left:10%;    
+
+
+    background-color: rgba(92,156,211,0.7);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+
+
+    
+
+    
+    
+}  
+
+ #circulo3{
+
+    position:absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left:30%;    
+    
+    background-color: rgba(214,191,129,0.7);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    
+    
+}  
+
+ #circulo4{
+
+    position:absolute;
+    top: 70%;
+    bottom: 0%;
+    right: 87%;
+    left:0%; 
+
+    background-color: rgba(210,126,136,0.7);
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+ } 
+
+#cont_borondoapp{
+
+    cursor:pointer;
+    
+    width: 10px;
+
+    position:absolute;
+    top: 1%;
+    bottom: 0%;
+    right: 0%;
+    left: 84%;
+    
+    width: 100px;
+    height: 100px;
+
+
+
+} 
+
+
+
+
+h1.Borondo{
+    color: #9D9D9D;
+    position:absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left:0%;    
+
+    
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+
+
+}
+
+ h1.App{
+    color: #7B7B78;
+    position:absolute;
+    top: 00%;
+    bottom: 0%;
+    right: 0%;
+    left: 142%;        
+    
+
+    
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+
+
+}
+ 
+
+.link{
+
+text-decoration: none;
+color: black;
+font-weight: 600;
+
+}
+
+.link:hover{
+
+    background-color: #40B7E4;
+
+}
+
+.icon_google{
+    cursor:pointer;
+    margin-left: 50%;
+    width: 10px; 
+    
+}

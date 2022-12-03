@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/93f20ec218.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/CSS/EstiloRegistro.css" type="text/css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<script src="/JAVASCRIPT/validar.js"></script>
+
+
+    <title>Registro</title>
+</head>
+<body>
+    
+
+<!-- inicio del formulario -->
+<form class="formulario" id="formulario" >
+    
+    
+    <div class="contenedor">
+
+        <h1>Registrarse</h1>
+        <br>
+        <div class="input-contenedor">
+            <i class="fa-solid fa-envelope icon"  style="color:#000000;"  ></i>    
+            <input type="text" placeholder="Correo Electrónico" id="correo" >
+        </div>
+            
+        <div class="input-contenedor">
+            <i class="fa-solid fa-lock icon" style="color:#000000;"></i>   
+            <input type="password" maxlength="20" placeholder="Contraseña" id="clave1" >
+        </div>
+
+        <div class="input-contenedor">
+            <i class="fa-solid fa-lock icon" style="color:#000000;"></i>    
+            <input type="password" maxlength="20"  placeholder="Repetir Contraseña" id="clave2" >
+        </div>  
+        
+        <input type= "submit"  value="Sé un viajero" class="button" onclick=" return ir();">
+        
+        <p class="mensaje" id="mensaje"></p>
+        <br>
+        <br>
+        
+        <P> ¿Ya tienes cuenta? <a class="link" href="/HTML/Login.html" > Iniciar Sesion</a></P>
+        <br>
+        
+        
+        <p>Registrarse con otras plataformas
+            <br>
+            <br>
+            <div class="icon_google">
+                <i class="fa-brands fa-google" ></i>
+            </div>
+            
+        </p>
+        
+        
+
+    </div>
+    
+
+
+</form>
+<!-- fin del formulario -->
+
+
+
+<!-- circulos -->
+ <div id="semi-circulo"> </div>
+ <div id="circulo1"></div>
+ <div id="circulo2"></div>
+ <div id="circulo3"></div>
+ <div id="circulo4"></div>
+ <!-- fin_circulos -->
+
+
+
+ <!-- borondoapp -->
+ <div id="cont_borondoapp">
+    <h1 class="Borondo">Borondo</h1>
+    <h1 class="App">App</h1>
+ </div>
+
+<!-- fin-borondoapp  -->
+
+
+
+
+
+
+
+</body>
+    </html>
